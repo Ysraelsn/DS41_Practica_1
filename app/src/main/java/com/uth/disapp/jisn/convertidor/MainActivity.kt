@@ -72,7 +72,7 @@ class MainActivity : AppCompatActivity() {
 
             }
             3->{// F a K
-                result = (temperatura.toDouble()+459367)/1.8
+                result = ((temperatura.toDouble()-32)*5/9)+273.15
                 total.text = String.format("%.2f", result)
 
             }
